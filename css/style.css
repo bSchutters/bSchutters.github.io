@@ -1,0 +1,116 @@
+/* Typography */
+@font-face {
+  font-family: Sk;
+  src: url("../fonts/Sk-Modernist-Regular.woff2") format("woff2"),
+    url("../fonts/Sk-Modernist-Regular.woff") format("woff"),
+    url("../fonts/Sk-Modernist-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Enoway;
+  src: url("../fonts/Enoway-PersonalUse.woff2") format("woff2"),
+    url("../fonts/Enoway-PersonalUse.woff") format("woff"),
+    url("../fonts/Enoway-PersonalUse.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  font-family: Sk;
+}
+
+@media (min-width: 576px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+.icons-social i {
+  font-size: 3em;
+}
+
+/* Custom Styles */
+
+main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  padding: 0 30px;
+  text-align: center;
+}
+
+.logo {
+  animation: FadeInLeft 700ms ease 1;
+}
+
+main > .intro {
+  font-family: Enoway;
+  font-size: 3.75em;
+  font-weight: 600;
+  animation: FadeInLeft 700ms ease 1;
+}
+
+main > .tagline {
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
+  font-weight: 100;
+  animation: FadeInLeft 700ms ease 1;
+}
+
+.icons-social {
+  animation: FadeInLeft 700ms ease 1;
+}
+
+.icons-social i {
+  padding: 10px;
+}
+
+.icons-social a {
+  text-decoration: none;
+}
+
+.devto {
+  margin-bottom: -0.2rem;
+}
+
+.devto svg {
+  margin-bottom: -0.2rem;
+  margin-left: 0.675rem;
+  width: 2.65rem;
+  height: 2.65rem;
+}
+
+@keyframes FadeInLeft {
+  0% {
+    transform: translateX(15px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}

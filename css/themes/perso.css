@@ -1,0 +1,18 @@
+/* Theme */
+
+main {
+  background: #161616;
+  color: #eee9db;
+}
+
+.icons-social a {
+  color: #414141;
+}
+
+.icons-social a:hover {
+  color: #eee9db;
+  transition: all 0.3s ease-in-out;
+}
+.icons-social a svg path {
+  fill: #eee9db;
+}

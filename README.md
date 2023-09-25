@@ -1,1 +1,1 @@
-# bSchutters.github.io
+# bSchutters landing page
